@@ -1,27 +1,34 @@
 body{
-    background-color: gray;
+    background-color:  hsl(212, 45%, 89%);
     width: 100%;
     height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 .container{
     box-sizing: border-box;
-    width: 375px;
-    margin: 0 auto;
+    width: 250px;
+    margin: 420px ;
     border: 1px solid;
     padding: 15px;
     text-align: center;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
 }
 img{
-    width: 100%;
+    width: 200px;
     border-radius: 10px;
     margin-bottom: 20px;
+    
 }
 p{
     font-size: 15px;
     word-wrap: break-word;
-    color: black;
+    color: hsl(220, 15%, 55%);
     line-height: 1.5;
 }
 .p0{
